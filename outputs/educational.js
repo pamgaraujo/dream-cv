@@ -101,7 +101,27 @@
     ['feeling lost', 'confused, not understanding what is happening'],
     ['low-maintenance', 'needing very little care or attention'],
     ['deal with', 'handle or take care of a problem or situation'],
-    ['talked through', 'discussed something in detail, step by step']
+    ['talked through', 'discussed something in detail, step by step'],
+    ['part of why', 'one of the reasons, though not the only one'],
+    ['trace back to', 'can be followed back to an original cause or source'],
+    ['circles back to', 'returns to the same idea or topic'],
+    ['plays into', 'is one of the reasons behind something, or supports it'],
+    ['underneath it all', 'at the most basic or true level, once everything else is set aside'],
+    ['rush past', 'move by quickly, without stopping to notice'],
+    ['word for word', 'using the exact same words, without changing anything'],
+    ['left out', 'not included in a group or activity'],
+    ['hole in it', 'a weak or missing part in an argument or plan'],
+    ['start over', 'begin again from the beginning'],
+    ['take credit for', 'let people think you are responsible for something good'],
+    ['stash of', 'a hidden or private supply of something'],
+    ['nobody asked for', 'unwanted or unrequested, but given anyway'],
+    ['point to', 'identify or indicate something as the cause or source'],
+    ['over the years', 'during a long period of time'],
+    ['shows up', 'appears or becomes noticeable'],
+    ['early on', 'at an early stage, near the beginning'],
+    ['keeps going', 'continues, without stopping'],
+    ['strip away', 'remove extra parts to reveal the basic truth underneath'],
+    ['borrowing from', 'taking ideas or style from another source']
   ];
   function refineVocab() {
     if (!vocab) return;
