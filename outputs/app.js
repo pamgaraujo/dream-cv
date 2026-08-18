@@ -15,9 +15,9 @@ const styleMeta = {
   Creative:{synonym:'imaginative', trait:'turning fresh ideas into real, finished projects'},
   Curious:{synonym:'inquisitive', trait:'asking good questions and then finding out the answers'},
   Organized:{synonym:'methodical', trait:'keeping every project mapped out and on track'},
-  Social:{synonym:'personable', trait:'building warm, easy connections with new people'},
+  Social:{synonym:'sociable', trait:'building warm, easy connections with new people'},
   Calm:{synonym:'composed', trait:'staying steady and thoughtful even when plans change'},
-  Adventurous:{synonym:'intrepid', trait:'chasing new challenges without waiting for permission'},
+  Adventurous:{synonym:'daring', trait:'chasing new challenges without waiting for permission'},
   Innovative:{synonym:'resourceful', trait:'reimagining ordinary tasks in original ways'},
   Expressive:{synonym:'articulate', trait:'putting big ideas into words other people remember'}
 };
