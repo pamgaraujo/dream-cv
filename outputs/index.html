@@ -39,7 +39,7 @@
         <div class="result-heading"><div><p class="eyebrow">Your future is looking bright</p><h2>Meet your dream self!</h2></div><div class="result-actions"><button class="compare-button" type="button" onclick="document.getElementById('compare-dialog').setAttribute('open','')">👀 Compare types</button><button class="share-button" type="button">📸 Share image</button><button class="text-button restart" type="button">↻ Create another</button></div></div>
         <div id="cv-paper" class="cv-paper"></div>
         <aside id="learning-card" class="learning-card"></aside>
-        <p class="learning-tip"><span>💡</span> Your <strong>CV</strong> is a short story about your skills, experience, qualifications, and career path.</p>
+        <aside id="vocab-card" class="vocab-card"></aside>
       </section>
     </main>
     <div id="toast" role="status"></div>
@@ -48,9 +48,9 @@
       <p class="eyebrow">Quick CV guide</p><h2 id="compare-title">Compare CV types</h2>
       <p class="dialog-intro">Choose a CV type to explore. Every CV has a summary, but the order changes what people notice first.</p>
       <div class="comparison-grid">
-        <button class="compare-option" type="button" onclick="selectComparison('chronological', this)"><span>📅</span><h3>Chronological</h3><b>Experience comes first</b><p><strong>Useful for:</strong> a clear history of projects.</p></button>
-        <button class="compare-option" type="button" onclick="selectComparison('functional', this)"><span>🛠</span><h3>Functional</h3><b>Skills come first</b><p><strong>Useful for:</strong> showing what you can do.</p></button>
-        <button class="compare-option" type="button" onclick="selectComparison('combined', this)"><span>🔀</span><h3>Combined</h3><b>Skills + experience</b><p><strong>Useful for:</strong> projects and abilities together.</p></button>
+        <button class="compare-option" type="button" onclick="selectComparison('chronological', this)"><span>📅</span><h3>Chronological</h3><b>Experience comes first</b><p><strong>Useful for:</strong> a steady work history where recent progress should stand out first.</p></button>
+        <button class="compare-option" type="button" onclick="selectComparison('functional', this)"><span>🛠</span><h3>Functional</h3><b>Skills come first</b><p><strong>Useful for:</strong> letting strengths speak louder than the timeline.</p></button>
+        <button class="compare-option" type="button" onclick="selectComparison('combined', this)"><span>🔀</span><h3>Combined</h3><b>Skills + experience</b><p><strong>Useful for:</strong> pairing proven abilities with real project experience.</p></button>
       </div>
       <div id="compare-detail" class="compare-detail" aria-live="polite">Select a format above to see what gets the most attention.</div>
       <button id="confirm-comparison" class="primary-button confirm-comparison" type="button" disabled onclick="confirmComparison()">Use this CV type <span>→</span></button>
