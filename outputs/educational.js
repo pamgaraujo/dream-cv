@@ -127,7 +127,20 @@
     ['off day', 'a day when someone is not at their best'],
     ['needs to breathe', 'needs time or space, without being rushed'],
     ['call it done', 'decide that something is finished'],
-    ['leans in', 'shows more interest or gets more involved']
+    ['leans in', 'shows more interest or gets more involved'],
+    ['chronological cv', 'a resume that lists work experience by date, usually starting with the most recent'],
+    ['functional cv', 'a resume that focuses on skills and abilities instead of dates'],
+    ['combined cv', 'a resume that mixes skills and work experience together'],
+    ['track record', 'a record of what someone has done and how well they have done it'],
+    ['career timeline', 'a summary of someone’s jobs and experience, in the order they happened'],
+    ['core strengths', 'the abilities someone is naturally best at'],
+    ['standout qualities', 'qualities that make someone noticeably different or better than others'],
+    ['top traits', 'someone’s most noticeable characteristics'],
+    ['proven experience', 'experience that has already shown good results'],
+    ['what sets this apart', 'what makes someone or something different from the rest'],
+    ['professional summary', 'a short paragraph at the top of a CV that introduces a person’s skills and goals'],
+    ['career diary', 'a record of someone’s jobs and experience, written like a personal diary'],
+    ['hands-on', 'involving direct, practical experience rather than just theory']
   ];
   function refineVocab() {
     if (!vocab) return;
