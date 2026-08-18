@@ -121,7 +121,13 @@
     ['early on', 'at an early stage, near the beginning'],
     ['keeps going', 'continues, without stopping'],
     ['strip away', 'remove extra parts to reveal the basic truth underneath'],
-    ['borrowing from', 'taking ideas or style from another source']
+    ['borrowing from', 'taking ideas or style from another source'],
+    ['run out', 'come to an end; be used up'],
+    ['low bar', 'an easy standard to meet'],
+    ['off day', 'a day when someone is not at their best'],
+    ['needs to breathe', 'needs time or space, without being rushed'],
+    ['call it done', 'decide that something is finished'],
+    ['leans in', 'shows more interest or gets more involved']
   ];
   function refineVocab() {
     if (!vocab) return;
