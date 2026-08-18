@@ -140,7 +140,30 @@
     ['what sets this apart', 'what makes someone or something different from the rest'],
     ['professional summary', 'a short paragraph at the top of a CV that introduces a person’s skills and goals'],
     ['career diary', 'a record of someone’s jobs and experience, written like a personal diary'],
-    ['hands-on', 'involving direct, practical experience rather than just theory']
+    ['hands-on', 'involving direct, practical experience rather than just theory'],
+    ['by the time', 'used to say something happens before or right when something else happens'],
+    ['packs light', 'travels with only a small amount of luggage'],
+    ['off by', 'not exactly correct, by a certain amount'],
+    ['a big deal', 'something treated as very important or serious'],
+    ['has "it', 'has a special, attractive quality that is hard to describe'],
+    ['rough draft', 'an early, unfinished version of a piece of writing'],
+    ['out of habit', 'done automatically, because it is something someone always does'],
+    ['follow-up', 'something additional that continues or responds to what happened before'],
+    ['the point of', 'the purpose or main reason for something'],
+    ['keeps an eye out for', 'watches carefully for something, in case it happens or appears'],
+    ['one more pass', 'one more time reviewing or checking something before it is finished'],
+    ['follow up with', 'to contact someone again or take further action after a first contact'],
+    ['sitting through', 'staying to watch or listen to something until it finishes, even if it is long or boring'],
+    ['in the background', 'not receiving much attention; not the main focus'],
+    ['falls apart', 'stops working correctly, or becomes disorganized'],
+    ['at once', 'at the same time'],
+    ['meaning to', 'intending to do something, but not having done it yet'],
+    ['for no reason', 'without any cause or explanation'],
+    ['week after week', 'every week, again and again, for a long time'],
+    ['season after season', 'every season, again and again, over a long time'],
+    ['stray', 'random or wandering, not part of any plan'],
+    ['cringes', 'feels embarrassed or uncomfortable about something'],
+    ['bluntness', 'being very direct when speaking, sometimes in a way that can seem rude']
   ];
   function refineVocab() {
     if (!vocab) return;
